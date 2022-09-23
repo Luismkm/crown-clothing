@@ -65,7 +65,7 @@ const SignUpForm = () => {
           label="Enail"
           type="email" 
           required 
-          nChange={handleChange} 
+          onChange={handleChange} 
           name="email" 
           value={email} 
         />
