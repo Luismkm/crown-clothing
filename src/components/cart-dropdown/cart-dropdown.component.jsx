@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 import Button from '../button/button.component'
 import CartItem from '../cart-item/cart-item.component'
-import { selectCartItems } from '../../store/cart/cart.selector'
+import { selectCartItems } from '../../redux-tool/slices/cart/cart.selector'
 
 import { CartDropdownContainer, CartItems, EmptyMessage  } from './cart-dropdown.styles'
 

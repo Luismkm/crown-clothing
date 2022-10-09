@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux'
 
-import { selectCategoriesMap } from '../../store/categories/category.selector'
+import { selectCategoriesMap } from '../../redux-tool/slices/categories/categories.selector'
 import CategoryPreview from '../../components/category-preview/category-preview.component'
 
 const CategoriesPreview = () => {
@@ -15,7 +15,7 @@ const CategoriesPreview = () => {
           <CategoryPreview key={title} title={title} products={products} />
         )
       })
-    }
+    } 
     </>
   )
 }
